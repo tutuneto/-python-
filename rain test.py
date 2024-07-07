@@ -1,4 +1,4 @@
-input("what's the weather looks outside?")
+print("what's the weather looks outside?")
 weather1 = ""
 while weather1 !="rainy":
     print ("Are you sure?")
@@ -13,7 +13,7 @@ while True:
     else:
         print("it seems we have to wait till the sum comes out.")    
         break
-input("how about now?(still rain/others)")
+print("how about now?(still rain/others)")
 weather2 = input()
 if weather2 == "finally stops":
     print("ok, let's go") 
